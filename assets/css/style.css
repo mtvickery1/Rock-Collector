@@ -1,0 +1,55 @@
+body {
+    background: url("http://www.desktopimages.org/pictures/2014/0909/1/cool-polygons-pattern-wallpaper-64273.jpg") repeat;
+    font-size: 24px;
+    padding: 10px;
+    color: rgb(175, 181, 187);
+}
+
+header {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: 2px solid rgb(175, 181, 187);
+    margin: 0px 300px;
+    background: rgb(105, 43, 37);
+    padding: 10px;
+}
+
+div {
+    border: 2px solid rgb(175, 181, 187);
+    margin: 0px 300px;
+    margin-bottom: 20px;
+    background: rgb(105, 43, 37);
+    padding: 10px;
+}
+
+#instructions {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#rules {
+    margin: 0px 300px;
+    margin-bottom: 20px;
+}
+
+#score {
+    text-decoration: underline;
+}
+
+#scoreboard {
+    text-decoration: underline;
+}
+
+#photos {
+    margin: 0px 300px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 25px;
+    border: 2px solid rgb(175, 181, 187);
+} 

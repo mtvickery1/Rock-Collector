@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Rock Collector!</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Rock Collector!</h1>
+    </header>
+    <br>
+    <div id="rules">
+        <p id="instructions">Instructions</p><br>
+        <p>You will be given a random number at the start of the game.</p><br>
+        <p>There are four rocks below. By clicking on a rock, you will add a specific amount of points to your total score.</p><br>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p><br>
+        <p>The value of each rock is hidden from you until you click on it.</p><br>
+        <p>Each time when the game starts, the game will change the values of each rock.</p>
+    </div>
+
+    <div>
+        <p id="score">Score to match:</p>
+        <p id="random-value"></p>
+    </div>
+
+    <div>
+        <p id="scoreboard">Wins: </p>
+        <p id="wins">0</p>
+        <p id="scoreboard">Losses: </p>
+        <p id="losses">0</p>
+    </div>
+
+    <div id="photos">
+        <span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Am%C3%A9thystre_sceptre2.jpg/220px-Am%C3%A9thystre_sceptre2.jpg" id="crystal-one"/>
+        </span>
+
+        <span>
+            <img src="assets/images/rock.png" id="crystal-two"/>
+        </span>
+
+        <span>
+            <img src="https://www.fossilera.com/sp/165505/quartz/quartz.jpg" id="crystal-three"/>
+        </span>
+
+        <span>
+            <img src="https://www.fossilera.com/sp/172928/petrified-wood/araucaria-conifer.jpg" id="crystal-four"/>
+        </span>
+    </div>
+
+    <div>
+        <p>Your total score is:</p>
+        <p id="total-score">0</p>
+    </div>
+
+<!--Linking JavaScript-->
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+
