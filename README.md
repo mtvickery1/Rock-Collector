@@ -7,4 +7,4 @@ The value of each rock is hidden from you until you click on it.
 Each time when the game starts, the game will change the values of each rock.
 
 Follow the link to play!
-https://mtvickery1.github.io/unit-4-game/
+https://mtvickery1.github.io/Rock-Collector/
